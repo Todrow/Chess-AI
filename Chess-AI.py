@@ -11,7 +11,7 @@ WIDTH = 800
 HEIGHT = 800
 FPS = 30
 BACKGROUND = (0, 0, 150)
-#asd
+
 n = 8
 m = 8
 matrix = [[0] * m for i in range(n)]
