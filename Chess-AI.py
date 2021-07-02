@@ -1,6 +1,5 @@
 import pygame
 import random, sys,time,os
-import numpy
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
@@ -13,7 +12,9 @@ HEIGHT = 800
 FPS = 30
 BACKGROUND = (0, 0, 150)
 
-matrix = numpy.zeros((8,8))
+n = 8
+m = 8
+matrix = [[0] * m for i in range(n)]
 
 game_folder = os.path.dirname(__file__)
 img_folder = os.path.join(game_folder, 'img')
